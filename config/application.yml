@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-quartz
+  profiles:
+    active: dev
+server:
+  port: 8801
+quartzcron-config:
+  jobdemocron: 0/10 * * * * ?
+logging:
+  config: config/logback.xml
